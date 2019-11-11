@@ -1,0 +1,19 @@
+﻿  Benchmark.cpp
+  BenchmarkResults.cpp
+  Cpp_Collections_benchmark.cpp
+  IBenchmark.cpp
+  MapTest.cpp
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(13,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(22,23): warning C4018: '<': signed/unsigned mismatch
+  SetTest.cpp
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(31,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\SetTest.cpp(13,23): warning C4018: '<': signed/unsigned mismatch
+  VectorTest.cpp
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\SetTest.cpp(28,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\VectorTest.cpp(17,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\VectorTest.cpp(33,23): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 113 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Cpp_Collections_benchmark.vcxproj -> C:\Users\Kamil\Source\Repos\CollectionsBenchmark\Release\Cpp_Collections_benchmark.exe

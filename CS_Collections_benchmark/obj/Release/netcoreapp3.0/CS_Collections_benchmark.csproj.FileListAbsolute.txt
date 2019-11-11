@@ -1,0 +1,11 @@
+C:\Users\Kamil\Source\Repos\CollectionsBenchmark\CS_Collections_benchmark\bin\Release\netcoreapp3.0\CS_Collections_benchmark.exe
+C:\Users\Kamil\Source\Repos\CollectionsBenchmark\CS_Collections_benchmark\bin\Release\netcoreapp3.0\CS_Collections_benchmark.deps.json
+C:\Users\Kamil\Source\Repos\CollectionsBenchmark\CS_Collections_benchmark\bin\Release\netcoreapp3.0\CS_Collections_benchmark.runtimeconfig.json
+C:\Users\Kamil\Source\Repos\CollectionsBenchmark\CS_Collections_benchmark\bin\Release\netcoreapp3.0\CS_Collections_benchmark.runtimeconfig.dev.json
+C:\Users\Kamil\Source\Repos\CollectionsBenchmark\CS_Collections_benchmark\bin\Release\netcoreapp3.0\CS_Collections_benchmark.dll
+C:\Users\Kamil\Source\Repos\CollectionsBenchmark\CS_Collections_benchmark\bin\Release\netcoreapp3.0\CS_Collections_benchmark.pdb
+C:\Users\Kamil\Source\Repos\CollectionsBenchmark\CS_Collections_benchmark\obj\Release\netcoreapp3.0\CS_Collections_benchmark.csprojAssemblyReference.cache
+C:\Users\Kamil\Source\Repos\CollectionsBenchmark\CS_Collections_benchmark\obj\Release\netcoreapp3.0\CS_Collections_benchmark.AssemblyInfoInputs.cache
+C:\Users\Kamil\Source\Repos\CollectionsBenchmark\CS_Collections_benchmark\obj\Release\netcoreapp3.0\CS_Collections_benchmark.AssemblyInfo.cs
+C:\Users\Kamil\Source\Repos\CollectionsBenchmark\CS_Collections_benchmark\obj\Release\netcoreapp3.0\CS_Collections_benchmark.dll
+C:\Users\Kamil\Source\Repos\CollectionsBenchmark\CS_Collections_benchmark\obj\Release\netcoreapp3.0\CS_Collections_benchmark.pdb

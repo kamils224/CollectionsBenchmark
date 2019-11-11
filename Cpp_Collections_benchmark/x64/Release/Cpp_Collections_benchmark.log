@@ -1,0 +1,18 @@
+﻿  Benchmark.cpp
+  BenchmarkResults.cpp
+  Cpp_Collections_benchmark.cpp
+C:\Users\Kamil\Source\Repos\CollectionsBenchmark\Cpp_Collections_benchmark\Cpp_Collections_benchmark.cpp(7,42): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'VectorTest'
+C:\Users\Kamil\Source\Repos\CollectionsBenchmark\Cpp_Collections_benchmark\Cpp_Collections_benchmark.cpp(7,42): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Kamil\Source\Repos\CollectionsBenchmark\Cpp_Collections_benchmark\Cpp_Collections_benchmark.cpp(11,62): error C2039: 'CreateAndAddTime': is not a member of 'BenchmarkResults'
+  IBenchmark.cpp
+  MapTest.cpp
+C:\Users\Kamil\Source\Repos\CollectionsBenchmark\Cpp_Collections_benchmark\BenchmarkResults.h(2): message : see declaration of 'BenchmarkResults'
+C:\Users\Kamil\Source\Repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(7,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kamil\Source\Repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(16,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  SetTest.cpp
+C:\Users\Kamil\Source\Repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(25,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kamil\Source\Repos\CollectionsBenchmark\Cpp_Collections_benchmark\SetTest.cpp(7,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kamil\Source\Repos\CollectionsBenchmark\Cpp_Collections_benchmark\SetTest.cpp(16,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  VectorTest.cpp
+C:\Users\Kamil\Source\Repos\CollectionsBenchmark\Cpp_Collections_benchmark\SetTest.cpp(26,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kamil\Source\Repos\CollectionsBenchmark\Cpp_Collections_benchmark\VectorTest.cpp(10,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data

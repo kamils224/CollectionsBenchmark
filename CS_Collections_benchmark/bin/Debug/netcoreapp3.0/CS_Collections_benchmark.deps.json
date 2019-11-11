@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "CS_Collections_benchmark/1.0.0": {
+        "runtime": {
+          "CS_Collections_benchmark.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CS_Collections_benchmark/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
