@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kamil\\Source\\Repos\\CollectionsBenchmark\\CS_Collections_benchmark\\CS_Collections_benchmark.csproj": {}
+    "C:\\Users\\Kamil\\source\\repos\\CollectionsBenchmark\\CS_Collections_benchmark\\CS_Collections_benchmark.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kamil\\Source\\Repos\\CollectionsBenchmark\\CS_Collections_benchmark\\CS_Collections_benchmark.csproj": {
+    "C:\\Users\\Kamil\\source\\repos\\CollectionsBenchmark\\CS_Collections_benchmark\\CS_Collections_benchmark.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kamil\\Source\\Repos\\CollectionsBenchmark\\CS_Collections_benchmark\\CS_Collections_benchmark.csproj",
+        "projectUniqueName": "C:\\Users\\Kamil\\source\\repos\\CollectionsBenchmark\\CS_Collections_benchmark\\CS_Collections_benchmark.csproj",
         "projectName": "CS_Collections_benchmark",
-        "projectPath": "C:\\Users\\Kamil\\Source\\Repos\\CollectionsBenchmark\\CS_Collections_benchmark\\CS_Collections_benchmark.csproj",
+        "projectPath": "C:\\Users\\Kamil\\source\\repos\\CollectionsBenchmark\\CS_Collections_benchmark\\CS_Collections_benchmark.csproj",
         "packagesPath": "C:\\Users\\Kamil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kamil\\Source\\Repos\\CollectionsBenchmark\\CS_Collections_benchmark\\obj\\",
+        "outputPath": "C:\\Users\\Kamil\\source\\repos\\CollectionsBenchmark\\CS_Collections_benchmark\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
