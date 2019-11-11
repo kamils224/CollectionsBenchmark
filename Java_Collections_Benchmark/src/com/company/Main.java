@@ -10,21 +10,37 @@ public class Main {
 
         int samples = 10;
         int numOfOperations = 100;
+        boolean success = false;
 
         if (args.length == 4)
         {
+            success = true;
             if (args[0].equals("-s"))
             {
-                samples = Integer.parseInt(args[1]);
+                try {
+                    samples = Integer.parseInt(args[1]);
+                }catch (Exception e){
+                    samples = 10;
+                    success = false;
+                }
+
             }
             if(args[2].equals("-n") )
             {
-                numOfOperations = Integer.parseInt(args[3]);
+                try{
+                    numOfOperations = Integer.parseInt(args[3]);
+                }catch (Exception e){
+                    numOfOperations = 100;
+                    success = false;
+                }
+
                 String msg = String.format("Running with parameters -s: %1$s, -n: %2$s",
                         samples, numOfOperations);
                 System.out.println(msg);
             }
-        }else
+        }
+
+        if(!success)
         {
             String msg = String.format
                     ("Wrong parameters, " +

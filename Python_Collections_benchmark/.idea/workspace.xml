@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fb048fe-0272-4eae-983a-56128a1e2504" name="Default Changelist" comment="" />
+    <list default="true" id="7fb048fe-0272-4eae-983a-56128a1e2504" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ResultsManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/ResultsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/ResultsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/bin/Debug/netcoreapp3.0/CS_Collections_benchmark.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/bin/Debug/netcoreapp3.0/CS_Collections_benchmark.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/bin/Debug/netcoreapp3.0/CS_Collections_benchmark.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/bin/Debug/netcoreapp3.0/CS_Collections_benchmark.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/Debug/netcoreapp3.0/CS_Collections_benchmark.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/Debug/netcoreapp3.0/CS_Collections_benchmark.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/Debug/netcoreapp3.0/CS_Collections_benchmark.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/Debug/netcoreapp3.0/CS_Collections_benchmark.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/Debug/netcoreapp3.0/CollectionsBenchmark.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/Debug/netcoreapp3.0/CollectionsBenchmark.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Cpp_Collections_benchmark.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Cpp_Collections_benchmark.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Cpp_Collections_benchmark.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Cpp_Collections_benchmark.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Cpp_Collections_benchmark.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Cpp_Collections_benchmark.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/Benchmark.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/Benchmark.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/BenchmarkResults.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/BenchmarkResults.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/Cpp_Coll.6BD2E2E8.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/Cpp_Coll.6BD2E2E8.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/Cpp_Coll.6BD2E2E8.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/Cpp_Coll.6BD2E2E8.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/Cpp_Coll.6BD2E2E8.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/Cpp_Coll.6BD2E2E8.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/Cpp_Coll.6BD2E2E8.tlog/Cpp_Collections_benchmark.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/Cpp_Coll.6BD2E2E8.tlog/Cpp_Collections_benchmark.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/Cpp_Coll.6BD2E2E8.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/Cpp_Coll.6BD2E2E8.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/Cpp_Coll.6BD2E2E8.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/Cpp_Coll.6BD2E2E8.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/Cpp_Coll.6BD2E2E8.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/Cpp_Coll.6BD2E2E8.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/Cpp_Collections_benchmark.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/Cpp_Collections_benchmark.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/Cpp_Collections_benchmark.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/Cpp_Collections_benchmark.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/IBenchmark.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/IBenchmark.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/MapTest.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/MapTest.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/SetTest.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/SetTest.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/VectorTest.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/VectorTest.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/vc142.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Debug/vc142.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debug/Cpp_Collections_benchmark.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Debug/Cpp_Collections_benchmark.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debug/Cpp_Collections_benchmark.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../Debug/Cpp_Collections_benchmark.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Debug/Cpp_Collections_benchmark.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Debug/Cpp_Collections_benchmark.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Collections_Benchmark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Collections_Benchmark/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Collections_Benchmark/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Collections_Benchmark/src/com/company/Main.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,38 +48,39 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="7" />
+          <entry key="py" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="7" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="800" />
+          <entry key="py" value="832" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="800" />
+          <entry key="Python" value="832" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Benchmark.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="600">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -56,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SetTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="576">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -65,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ListTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="576">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -77,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BenchmarkResults.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="72">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -86,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IBenchmark.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="240">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -95,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DictionaryTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="600">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -104,7 +139,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python_Collections_benchmark.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
@@ -112,6 +147,15 @@
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ResultsManager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -143,6 +187,7 @@
         <option value="$PROJECT_DIR$/BenchmarkResults.py" />
         <option value="$PROJECT_DIR$/Python_Collections_benchmark.py" />
         <option value="$PROJECT_DIR$/Benchmark.py" />
+        <option value="$PROJECT_DIR$/ResultsManager.py" />
       </list>
     </option>
   </component>
@@ -159,6 +204,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,7 +216,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,14 +305,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
@@ -275,6 +317,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -290,34 +336,27 @@
     <SUITE FILE_PATH="coverage/Python_Collections_benchmark$DictionaryTest.coverage" NAME="DictionaryTest Coverage Results" MODIFIED="1573249404299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SetTest.py">
+    <entry file="file://$PROJECT_DIR$/Benchmark.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IBenchmark.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DictionaryTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="600">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SetTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ListTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="576">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
@@ -326,15 +365,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BenchmarkResults.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="72">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Benchmark.py">
+    <entry file="file://$PROJECT_DIR$/IBenchmark.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DictionaryTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
@@ -348,6 +394,13 @@
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResultsManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
         </state>
       </provider>
     </entry>

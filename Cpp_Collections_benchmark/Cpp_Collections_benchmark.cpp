@@ -1,15 +1,106 @@
 #include <iostream>
+#include <string>
+#include <sstream>
 #include "Benchmark.h"
 #include "VectorTest.h"
+#include <vector>
+#include "ResultsManager.h"
+#include "MapTest.h"
+#include "SetTest.h"
 
-int main()
+int main(int argc, char **argv)
 {
-	VectorTest vector = VectorTest(1000, 100);
-	Benchmark benchmark(&vector);
-	auto result = benchmark.PerformAllTests();
+	int samples = 10;
+	int numOfOperations = 100;
+	bool success = false;
+	if (argc == 4)
+	{
+		success = true;
+		if (argv[0] == "-s")
+		{
+			std::stringstream arg1(argv[1]);
+			if ((arg1 >> samples).fail() || !(arg1 >> std::ws).eof())
+			{
+				success = false;
+			}
+		}
+		else
+		{
+			success = false;
+		}
 
-	std::cout << "Create and add: " << result->CreateAndAddTime << std::endl;
-	std::cout << "Add: " << result->AddTime << std::endl;
-	std::cout << "Find: " << result->FindTime << std::endl;
-	std::cout << "Remove: " << result->RemoveTime << std::endl;
+		if (argv[2] == "-n")
+		{
+			std::stringstream arg3(argv[3]);
+			if ((arg3 >> numOfOperations).fail() || !(arg3 >> std::ws).eof())
+			{
+				success = false;
+			}
+		}
+		else 
+		{
+			success = false;
+		}
+	}
+	if(!success)
+	{
+		std::cout << "Wrong parameters, running with default -s: " << samples << ", -n: "
+			<< numOfOperations << std::endl;
+	}
+	else
+	{
+		std::cout << "Running wit parameters -s: " << samples << ", -n: " 
+			<< numOfOperations << std::endl;
+	}
+
+	std::vector<BenchmarkResults> vectorResults(samples);
+	std::vector<BenchmarkResults> mapResults(samples);
+	std::vector<BenchmarkResults> setResults(samples);
+
+	//vector
+
+	ResultsManager vectorResultsManager;
+	vectorResultsManager.CollectionName = "Vector";
+	vectorResultsManager.NumberOfOperations = samples;
+
+	for (int i = 0; i < samples; i++)
+	{
+		VectorTest test(numOfOperations);
+		Benchmark benchmark(&test);
+		auto results = benchmark.PerformAllTests();
+		vectorResults.push_back(*results);
+	}
+	vectorResultsManager.SaveToCsv(vectorResults, "VectorTest.csv");
+
+	//map
+
+	ResultsManager mapResultsManager;
+	mapResultsManager.CollectionName = "Map";
+	mapResultsManager.NumberOfOperations = samples;
+
+	for (int i = 0; i < samples; i++)
+	{
+		MapTest test(numOfOperations);
+		Benchmark benchmark(&test);
+		auto results = benchmark.PerformAllTests();
+		mapResults.push_back(*results);
+	}
+	mapResultsManager.SaveToCsv(mapResults, "MapTest.csv");
+
+	//set
+
+	ResultsManager setResultsManager;
+	setResultsManager.CollectionName = "Set";
+	setResultsManager.NumberOfOperations = samples;
+
+	for (int i = 0; i < samples; i++)
+	{
+		SetTest test(numOfOperations);
+		Benchmark benchmark(&test);
+		auto results = benchmark.PerformAllTests();
+		setResults.push_back(*results);
+	}
+	setResultsManager.SaveToCsv(setResults, "SetTest.csv");
+
+	return 0;
 }

@@ -18,10 +18,9 @@ namespace CS_Collections_benchmark
             var csv = new StringBuilder();
             string firstRow = string.Format
                 (collectionInfo, CollectionName, NumberOfOperations, measureUnit);
-            string secondRow = columns;
 
             csv.AppendLine(firstRow);
-            csv.AppendLine(secondRow);
+            csv.AppendLine(columns);
 
             for (int i = 0; i < results.Count; i++)
             {

@@ -156,6 +156,7 @@
     <ClCompile Include="Cpp_Collections_benchmark.cpp" />
     <ClCompile Include="IBenchmark.cpp" />
     <ClCompile Include="MapTest.cpp" />
+    <ClCompile Include="ResultsManager.cpp" />
     <ClCompile Include="SetTest.cpp" />
     <ClCompile Include="VectorTest.cpp" />
   </ItemGroup>
@@ -164,6 +165,7 @@
     <ClInclude Include="BenchmarkResults.h" />
     <ClInclude Include="IBenchmark.h" />
     <ClInclude Include="MapTest.h" />
+    <ClInclude Include="ResultsManager.h" />
     <ClInclude Include="SetTest.h" />
     <ClInclude Include="VectorTest.h" />
   </ItemGroup>
