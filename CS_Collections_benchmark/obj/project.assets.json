@@ -8,25 +8,25 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Kamil\\.nuget\\packages\\": {},
+    "C:\\Users\\greva\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kamil\\Source\\Repos\\CollectionsBenchmark\\CS_Collections_benchmark\\CS_Collections_benchmark.csproj",
+      "projectUniqueName": "C:\\Users\\greva\\PycharmProjects\\CollectionsBenchmark\\CS_Collections_benchmark\\CS_Collections_benchmark.csproj",
       "projectName": "CS_Collections_benchmark",
-      "projectPath": "C:\\Users\\Kamil\\Source\\Repos\\CollectionsBenchmark\\CS_Collections_benchmark\\CS_Collections_benchmark.csproj",
-      "packagesPath": "C:\\Users\\Kamil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kamil\\Source\\Repos\\CollectionsBenchmark\\CS_Collections_benchmark\\obj\\",
+      "projectPath": "C:\\Users\\greva\\PycharmProjects\\CollectionsBenchmark\\CS_Collections_benchmark\\CS_Collections_benchmark.csproj",
+      "packagesPath": "C:\\Users\\greva\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\greva\\PycharmProjects\\CollectionsBenchmark\\CS_Collections_benchmark\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\greva\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
