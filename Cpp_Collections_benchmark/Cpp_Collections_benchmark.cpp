@@ -61,7 +61,7 @@ int main(int argc, char **argv)
 
 	ResultsManager vectorResultsManager;
 	vectorResultsManager.CollectionName = "Vector";
-	vectorResultsManager.NumberOfOperations = samples;
+	vectorResultsManager.NumberOfOperations = numOfOperations;
 
 	for (int i = 0; i < samples; i++)
 	{
@@ -70,13 +70,13 @@ int main(int argc, char **argv)
 		auto results = benchmark.PerformAllTests();
 		vectorResults.push_back(*results);
 	}
-	vectorResultsManager.SaveToCsv(vectorResults, "VectorTest.csv");
+	vectorResultsManager.SaveToCsv(vectorResults, "Cpp_VectorTest.csv");
 
 	//map
 
 	ResultsManager mapResultsManager;
 	mapResultsManager.CollectionName = "Map";
-	mapResultsManager.NumberOfOperations = samples;
+	mapResultsManager.NumberOfOperations = numOfOperations;
 
 	for (int i = 0; i < samples; i++)
 	{
@@ -85,13 +85,13 @@ int main(int argc, char **argv)
 		auto results = benchmark.PerformAllTests();
 		mapResults.push_back(*results);
 	}
-	mapResultsManager.SaveToCsv(mapResults, "MapTest.csv");
+	mapResultsManager.SaveToCsv(mapResults, "Cpp_MapTest.csv");
 
 	//set
 
 	ResultsManager setResultsManager;
 	setResultsManager.CollectionName = "Set";
-	setResultsManager.NumberOfOperations = samples;
+	setResultsManager.NumberOfOperations = numOfOperations;
 
 	for (int i = 0; i < samples; i++)
 	{
@@ -100,7 +100,7 @@ int main(int argc, char **argv)
 		auto results = benchmark.PerformAllTests();
 		setResults.push_back(*results);
 	}
-	setResultsManager.SaveToCsv(setResults, "SetTest.csv");
+	setResultsManager.SaveToCsv(setResults, "Cpp_SetTest.csv");
 
 	return 0;
 }

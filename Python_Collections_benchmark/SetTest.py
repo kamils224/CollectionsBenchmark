@@ -16,7 +16,7 @@ class SetTest(IBenchmark):
     def find_test(self):
         for i in range(0, self.num_of_operations):
             to_find = len(self.s) - 1
-            result = any(to_find in x for x in self.s)
+            result = to_find in self.s
 
     def remove_test(self):
         for i in range(0, self.num_of_operations):

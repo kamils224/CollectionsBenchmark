@@ -21,7 +21,9 @@ class ResultsManager():
             row = self._row_pattern.format(str(item.add_time), str(item.find_time), str(item.remove_time))
             csv.append(row)
 
+        print('saving to file:' + self.collection_name)
         output = '\n'.join(csv)
 
-        with open(path) as file:
+        with open(path,'w') as file:
             file.write(output)
+

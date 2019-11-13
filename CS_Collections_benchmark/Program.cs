@@ -59,7 +59,7 @@ namespace CS_Collections_benchmark
             ResultsManager listResultsManager = new ResultsManager()
             {
                 CollectionName = "List",
-                NumberOfOperations = samples
+                NumberOfOperations = numOfOperations
             };
 
             for (int i = 0; i < samples; i++)
@@ -67,12 +67,12 @@ namespace CS_Collections_benchmark
                 Benchmark benchmark = new Benchmark(new ListTest(numOfOperations));
                 listResults.Add(benchmark.PerformAllTests());
             }
-            listResultsManager.SaveToCsv(listResults, "ListTest.csv");
+            listResultsManager.SaveToCsv(listResults, "CSharp_ListTest.csv");
 
             ResultsManager dictResultsManager = new ResultsManager()
             {
                 CollectionName = "Dictionary",
-                NumberOfOperations = samples
+                NumberOfOperations = numOfOperations
             };
 
             for (int i = 0; i < samples; i++)
@@ -80,12 +80,12 @@ namespace CS_Collections_benchmark
                 Benchmark benchmark = new Benchmark(new ListTest(numOfOperations));
                 dictionaryResults.Add(benchmark.PerformAllTests());
             }
-            dictResultsManager.SaveToCsv(listResults, "DictionaryTest.csv");
+            dictResultsManager.SaveToCsv(listResults, "CSharp_DictionaryTest.csv");
 
             ResultsManager hashSetResultsManager = new ResultsManager()
             {
                 CollectionName = "HashSet",
-                NumberOfOperations = samples
+                NumberOfOperations = numOfOperations
             };
 
             for (int i = 0; i < samples; i++)
@@ -93,7 +93,7 @@ namespace CS_Collections_benchmark
                 Benchmark benchmark = new Benchmark(new ListTest(numOfOperations));
                 hashsetResults.Add(benchmark.PerformAllTests());
             }
-            hashSetResultsManager.SaveToCsv(listResults, "HashSetTest.csv");
+            hashSetResultsManager.SaveToCsv(listResults, "CSharp_HashSetTest.csv");
         }
     }
 }

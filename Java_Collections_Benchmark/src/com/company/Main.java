@@ -76,7 +76,7 @@ public class Main {
 
         ResultsManager dictResultsManager = new ResultsManager();
         dictResultsManager.CollectionName = "HashMap";
-        dictResultsManager.NumberOfOperations = samples;
+        dictResultsManager.NumberOfOperations = numOfOperations;
 
         for (int i = 0; i < samples; i++)
         {
@@ -94,7 +94,7 @@ public class Main {
 
         ResultsManager hashSetResultsManager = new ResultsManager();
         hashSetResultsManager.CollectionName = "HashSet";
-        hashSetResultsManager.NumberOfOperations = samples;
+        hashSetResultsManager.NumberOfOperations = numOfOperations;
 
         for (int i = 0; i < samples; i++)
         {

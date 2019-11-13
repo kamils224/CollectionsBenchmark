@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\greva\\PycharmProjects\\CollectionsBenchmark\\CollectionsBenchmark\\CollectionsBenchmark.csproj": {}
+    "C:\\Users\\Kamil\\source\\repos\\CollectionsBenchmark\\CollectionsBenchmark\\CollectionsBenchmark.csproj": {}
   },
   "projects": {
-    "C:\\Users\\greva\\PycharmProjects\\CollectionsBenchmark\\CollectionsBenchmark\\CollectionsBenchmark.csproj": {
+    "C:\\Users\\Kamil\\source\\repos\\CollectionsBenchmark\\CollectionsBenchmark\\CollectionsBenchmark.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\greva\\PycharmProjects\\CollectionsBenchmark\\CollectionsBenchmark\\CollectionsBenchmark.csproj",
+        "projectUniqueName": "C:\\Users\\Kamil\\source\\repos\\CollectionsBenchmark\\CollectionsBenchmark\\CollectionsBenchmark.csproj",
         "projectName": "CollectionsBenchmark",
-        "projectPath": "C:\\Users\\greva\\PycharmProjects\\CollectionsBenchmark\\CollectionsBenchmark\\CollectionsBenchmark.csproj",
-        "packagesPath": "C:\\Users\\greva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\greva\\PycharmProjects\\CollectionsBenchmark\\CollectionsBenchmark\\obj\\",
+        "projectPath": "C:\\Users\\Kamil\\source\\repos\\CollectionsBenchmark\\CollectionsBenchmark\\CollectionsBenchmark.csproj",
+        "packagesPath": "C:\\Users\\Kamil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kamil\\source\\repos\\CollectionsBenchmark\\CollectionsBenchmark\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\greva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

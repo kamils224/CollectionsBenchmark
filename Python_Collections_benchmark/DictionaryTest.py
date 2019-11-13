@@ -17,10 +17,9 @@ class DictionaryTest(IBenchmark):
     def find_test(self):
         for i in range(0, self.num_of_operations):
             to_find = len(self.dictionary) - 1
-            result = any(to_find in v for v in self.dictionary.values())
+            result = to_find in self.dictionary.values()
 
     def remove_test(self):
         for i in range(0, self.num_of_operations):
             to_remove = len(self.dictionary) - 1
             self.dictionary.pop(to_remove)
-

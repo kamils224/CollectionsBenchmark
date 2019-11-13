@@ -16,7 +16,7 @@ class ListTest(IBenchmark):
 
     def find_test(self):
         to_find = len(self.ls) - 1
-        next(x for x in self.ls if x == to_find)
+        result = to_find in self.ls
 
     def remove_test(self):
         for i in range(0, self.num_of_operations):

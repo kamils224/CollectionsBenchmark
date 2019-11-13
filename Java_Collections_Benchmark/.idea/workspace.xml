@@ -3,7 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="608725ad-0940-4aae-a74d-d8cd29be30c7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/CS_Collections_benchmark.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/CS_Collections_benchmark.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/CS_Collections_benchmark.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/CS_Collections_benchmark.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/CS_Collections_benchmark.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/CS_Collections_benchmark.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/Debug/netcoreapp3.0/CS_Collections_benchmark.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/Debug/netcoreapp3.0/CS_Collections_benchmark.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/Debug/netcoreapp3.0/CS_Collections_benchmark.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/Debug/netcoreapp3.0/CS_Collections_benchmark.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/CollectionsBenchmark.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/CollectionsBenchmark.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/CollectionsBenchmark.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/CollectionsBenchmark.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/CollectionsBenchmark.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/CollectionsBenchmark.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/Debug/netcoreapp3.0/CollectionsBenchmark.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/Debug/netcoreapp3.0/CollectionsBenchmark.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/Debug/netcoreapp3.0/CollectionsBenchmark.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/Debug/netcoreapp3.0/CollectionsBenchmark.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/Debug/netcoreapp3.0/CollectionsBenchmark_MarkupCompile.i.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/Debug/netcoreapp3.0/CollectionsBenchmark_MarkupCompile.i.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Cpp_Collections_benchmark.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Cpp_Collections_benchmark.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Collections_benchmark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Collections_benchmark/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Collections_benchmark/Python_Collections_benchmark.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Collections_benchmark/Python_Collections_benchmark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Collections_benchmark/ResultsManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Collections_benchmark/ResultsManager.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="995">
+              <caret line="92" selection-start-line="92" selection-end-line="92" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -26,11 +43,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java_HashMapTest.csv">
-          <provider selected="true" editor-type-id="csv-text-editor" />
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/HashMapTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="706">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -133,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="163" />
     <option name="y" value="256" />
     <option name="width" value="1612" />
@@ -145,6 +163,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,8 +191,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,17 +241,18 @@
       <workItem from="1573412237990" duration="9273000" />
       <workItem from="1573435345567" duration="2889000" />
       <workItem from="1573477599332" duration="2211000" />
+      <workItem from="1573602936832" duration="878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14373000" />
+    <option name="totallyTimeSpent" value="15251000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -276,26 +295,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/HashMapTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1032">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="995">
+          <caret line="92" selection-start-line="92" selection-end-line="92" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Java_HashMapTest.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Java_HashSetTest.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_ListTest.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Java_Collections_Benchmark.iml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -341,24 +374,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java_ListTest.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/HashMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="706">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
