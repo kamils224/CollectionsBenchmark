@@ -6,9 +6,9 @@ namespace CS_Collections_benchmark
 {
     class BenchmarkResults
     {
-        public long AddTime { get; set; }
-        public long FindTime { get; set; }
-        public long RemoveTime { get; set; }
+        public double AddTime { get; set; }
+        public double FindTime { get; set; }
+        public double RemoveTime { get; set; }
 
         public override string ToString()
         {

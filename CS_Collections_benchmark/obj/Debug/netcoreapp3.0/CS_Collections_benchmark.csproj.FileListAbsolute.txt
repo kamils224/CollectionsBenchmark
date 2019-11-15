@@ -30,4 +30,4 @@ C:\Users\Kamil\Source\Repos\CollectionsBenchmark\CS_Collections_benchmark\obj\De
 C:\Users\Kamil\Source\Repos\CollectionsBenchmark\CS_Collections_benchmark\obj\Debug\netcoreapp3.0\CS_Collections_benchmark.AssemblyInfo.cs
 C:\Users\Kamil\Source\Repos\CollectionsBenchmark\CS_Collections_benchmark\obj\Debug\netcoreapp3.0\CS_Collections_benchmark.dll
 C:\Users\Kamil\Source\Repos\CollectionsBenchmark\CS_Collections_benchmark\obj\Debug\netcoreapp3.0\CS_Collections_benchmark.pdb
-C:\Users\Kamil\Source\Repos\CollectionsBenchmark\CS_Collections_benchmark\obj\Debug\netcoreapp3.0\CS_Collections_benchmark.csprojAssemblyReference.cache
+C:\Users\Kamil\source\repos\CollectionsBenchmark\CS_Collections_benchmark\obj\Debug\netcoreapp3.0\CS_Collections_benchmark.csprojAssemblyReference.cache

@@ -26,7 +26,7 @@ void VectorTest::removeTest()
 	for (size_t i = 0; i < numOfOperations; i++)
 	{
 		int toRemove = v[0];
-		auto it = std::remove(v.begin(), v.end(), toRemove);
+		v.erase(std::remove(v.begin(), v.end(), toRemove),v.end());
 	}
 }
 

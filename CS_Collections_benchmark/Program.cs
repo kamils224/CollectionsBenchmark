@@ -6,13 +6,69 @@ namespace CS_Collections_benchmark
 {
     class Program
     {
+        static void ListBenchmark(int samples, int numOfOperations)
+        {
+            List<BenchmarkResults> listResults = new List<BenchmarkResults>(samples);
+
+            ResultsManager listResultsManager = new ResultsManager()
+            {
+                CollectionName = "List",
+                NumberOfOperations = numOfOperations
+            };
+
+            for (int i = 0; i < samples; i++)
+            {
+                Benchmark benchmark = new Benchmark(new ListTest(numOfOperations));
+                listResults.Add(benchmark.PerformAllTests());
+                Console.WriteLine(listResultsManager.CollectionName+" progress: "+ i + "/" + samples);
+            }
+            listResultsManager.SaveToCsv(listResults, "CSharp_ListTest.csv");
+        }
+
+        static void DictionaryBenchmark(int samples, int numOfOperations)
+        {
+            List<BenchmarkResults> dictionaryResults = new List<BenchmarkResults>(samples);
+            ResultsManager dictResultsManager = new ResultsManager()
+            {
+                CollectionName = "Dictionary",
+                NumberOfOperations = numOfOperations
+            };
+
+            for (int i = 0; i < samples; i++)
+            {
+                Benchmark benchmark = new Benchmark(new ListTest(numOfOperations));
+                dictionaryResults.Add(benchmark.PerformAllTests());
+                Console.WriteLine(dictResultsManager.CollectionName +"progress: "+i + "/" + samples);
+            }
+            dictResultsManager.SaveToCsv(dictionaryResults, "CSharp_DictionaryTest.csv");
+        }
+
+        static void HashSetBenchmark(int samples, int numOfOperations)
+        {
+            List<BenchmarkResults> hashsetResults = new List<BenchmarkResults>(samples);
+            ResultsManager hashSetResultsManager = new ResultsManager()
+            {
+                CollectionName = "HashSet",
+                NumberOfOperations = numOfOperations
+            };
+
+            for (int i = 0; i < samples; i++)
+            {
+                Benchmark benchmark = new Benchmark(new ListTest(numOfOperations));
+                hashsetResults.Add(benchmark.PerformAllTests());
+                Console.WriteLine(hashSetResultsManager.CollectionName + " progress: "+i + "/"+samples);
+            }
+            hashSetResultsManager.SaveToCsv(hashsetResults, "CSharp_HashSetTest.csv");
+        }
         static void Main(string[] args)
         {
             int samples = 10;
             int numOfOperations = 100;
             bool success = false;
+            List<string> collectionType = new List<string>{ "list", "dict", "set", "all" };
+            string pickedCollection = "list";
 
-            if (args.Length == 4)
+            if (args.Length == 5)
             {
                 success = true;
                 if (args[0] == "-s")
@@ -36,6 +92,15 @@ namespace CS_Collections_benchmark
                 {
                     success = false;
                 }
+
+                if (collectionType.Contains(args[4]))
+                {
+                    pickedCollection = args[4];
+                }
+                else
+                {
+                    success = false;
+                }
             }
 
             if(!success)
@@ -47,53 +112,30 @@ namespace CS_Collections_benchmark
             }
             else
             {
-                string msg = string.Format("Running with parameters -s: {0}, -n: {1}",
-                samples, numOfOperations);
+                string msg = string.Format("Running with parameters -s: {0}, -n: {1}, name: {2}",
+                samples, numOfOperations, pickedCollection);
                 Console.WriteLine(msg);
             }
 
-            List<BenchmarkResults> listResults = new List<BenchmarkResults>(samples);
-            List<BenchmarkResults> dictionaryResults = new List<BenchmarkResults>(samples);
-            List<BenchmarkResults> hashsetResults = new List<BenchmarkResults>(samples);
-
-            ResultsManager listResultsManager = new ResultsManager()
+            switch (pickedCollection)
             {
-                CollectionName = "List",
-                NumberOfOperations = numOfOperations
-            };
-
-            for (int i = 0; i < samples; i++)
-            {
-                Benchmark benchmark = new Benchmark(new ListTest(numOfOperations));
-                listResults.Add(benchmark.PerformAllTests());
+                case "list":
+                    ListBenchmark(samples, numOfOperations);
+                    break;
+                case "dict":
+                    DictionaryBenchmark(samples, numOfOperations);
+                    break;
+                case "set":
+                    HashSetBenchmark(samples, numOfOperations);
+                    break;
+                case "all":
+                    ListBenchmark(samples, numOfOperations);
+                    DictionaryBenchmark(samples, numOfOperations);
+                    HashSetBenchmark(samples, numOfOperations);
+                    break;
+                default:
+                    break;
             }
-            listResultsManager.SaveToCsv(listResults, "CSharp_ListTest.csv");
-
-            ResultsManager dictResultsManager = new ResultsManager()
-            {
-                CollectionName = "Dictionary",
-                NumberOfOperations = numOfOperations
-            };
-
-            for (int i = 0; i < samples; i++)
-            {
-                Benchmark benchmark = new Benchmark(new ListTest(numOfOperations));
-                dictionaryResults.Add(benchmark.PerformAllTests());
-            }
-            dictResultsManager.SaveToCsv(listResults, "CSharp_DictionaryTest.csv");
-
-            ResultsManager hashSetResultsManager = new ResultsManager()
-            {
-                CollectionName = "HashSet",
-                NumberOfOperations = numOfOperations
-            };
-
-            for (int i = 0; i < samples; i++)
-            {
-                Benchmark benchmark = new Benchmark(new ListTest(numOfOperations));
-                hashsetResults.Add(benchmark.PerformAllTests());
-            }
-            hashSetResultsManager.SaveToCsv(listResults, "CSharp_HashSetTest.csv");
         }
     }
 }

@@ -1,4 +1,6 @@
 #include "MapTest.h"
+#include <iostream>
+#include <chrono>
 
 void MapTest::addTest()
 {
@@ -14,7 +16,7 @@ void MapTest::findTest()
 	for (size_t i = 0; i < numOfOperations; i++)
 	{
 		int toFind = map.size() - 1;
-		findByValue(toFind);
+		auto results = findByValue(toFind);
 	}
 }
 

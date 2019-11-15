@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fb048fe-0272-4eae-983a-56128a1e2504" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/CS_Collections_benchmark.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/CS_Collections_benchmark.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/CS_Collections_benchmark.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/CS_Collections_benchmark.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/CS_Collections_benchmark.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/CS_Collections_benchmark.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/Debug/netcoreapp3.0/CS_Collections_benchmark.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/Debug/netcoreapp3.0/CS_Collections_benchmark.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/Debug/netcoreapp3.0/CS_Collections_benchmark.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/Debug/netcoreapp3.0/CS_Collections_benchmark.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/CollectionsBenchmark.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/CollectionsBenchmark.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/CollectionsBenchmark.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/CollectionsBenchmark.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/CollectionsBenchmark.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/CollectionsBenchmark.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/Debug/netcoreapp3.0/CollectionsBenchmark.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/Debug/netcoreapp3.0/CollectionsBenchmark.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/Debug/netcoreapp3.0/CollectionsBenchmark.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/Debug/netcoreapp3.0/CollectionsBenchmark.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/Debug/netcoreapp3.0/CollectionsBenchmark_MarkupCompile.i.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/Debug/netcoreapp3.0/CollectionsBenchmark_MarkupCompile.i.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Cpp_Collections_benchmark.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Cpp_Collections_benchmark.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Benchmark.py" beforeDir="false" afterPath="$PROJECT_DIR$/Benchmark.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DictionaryTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/DictionaryTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/ListTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Collections_benchmark.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Collections_benchmark.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultsManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/ResultsManager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SetTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/SetTest.py" afterDir="false" />
-    </list>
+    <list default="true" id="7fb048fe-0272-4eae-983a-56128a1e2504" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +12,7 @@
     <session id="-987144955">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="2" />
@@ -67,7 +44,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ResultsManager.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
@@ -105,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python_DictionaryTest.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="48">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="18" />
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -300,14 +277,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,23 +349,6 @@
     <entry file="file://$PROJECT_DIR$/Python_SetTest.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Collections_benchmark.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1070">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_DictionaryTest.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DictionaryTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -414,6 +373,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Collections_benchmark.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1070">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_DictionaryTest.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>

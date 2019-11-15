@@ -1,5 +1,6 @@
 #include "ResultsManager.h"
 #include <fstream>
+#include <iostream>
 
 void ResultsManager::SaveToCsv(std::vector<BenchmarkResults>& results, std::string path)
 {
@@ -9,16 +10,25 @@ void ResultsManager::SaveToCsv(std::vector<BenchmarkResults>& results, std::stri
 	csv += firstRow + "\n";
 	csv += columns + "\n";
 
+	std::ofstream out(path);
+	out << csv;
+	csv.clear();
+
+	std::string res_size = std::to_string(results.size());
+	int counter = 0;
 
 	for (BenchmarkResults r : results)
 	{
 		std::string row = std::to_string(r.AddTime)
 			+ "," + std::to_string(r.FindTime) + "," + std::to_string(r.RemoveTime);
 
-		csv += row + "\n";
+		csv = row + "\n";
+		out << csv;
+		csv.clear();
+		counter++;
+		std::cout << "Saving " + CollectionName + " " + 
+			std::to_string(counter) + "/" + res_size << std::endl;
 	}
 
-	std::ofstream out(path);
-	out << csv;
 	out.close();
 }

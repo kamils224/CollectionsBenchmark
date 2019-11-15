@@ -2,8 +2,8 @@
 class BenchmarkResults
 {
 public:
-	long long AddTime=0;
-	long long FindTime=0;
-	long long RemoveTime=0;
+	double AddTime=0;
+	double FindTime=0;
+	double RemoveTime=0;
 };
 

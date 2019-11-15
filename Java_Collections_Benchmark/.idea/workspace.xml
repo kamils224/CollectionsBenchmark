@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="608725ad-0940-4aae-a74d-d8cd29be30c7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/CS_Collections_benchmark.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/CS_Collections_benchmark.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/CS_Collections_benchmark.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/CS_Collections_benchmark.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/CS_Collections_benchmark.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/CS_Collections_benchmark.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/Debug/netcoreapp3.0/CS_Collections_benchmark.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/Debug/netcoreapp3.0/CS_Collections_benchmark.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/Debug/netcoreapp3.0/CS_Collections_benchmark.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/Debug/netcoreapp3.0/CS_Collections_benchmark.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/CollectionsBenchmark.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/CollectionsBenchmark.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/CollectionsBenchmark.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/CollectionsBenchmark.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/CollectionsBenchmark.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/CollectionsBenchmark.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/Debug/netcoreapp3.0/CollectionsBenchmark.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/Debug/netcoreapp3.0/CollectionsBenchmark.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/Debug/netcoreapp3.0/CollectionsBenchmark.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/Debug/netcoreapp3.0/CollectionsBenchmark.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/Debug/netcoreapp3.0/CollectionsBenchmark_MarkupCompile.i.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/Debug/netcoreapp3.0/CollectionsBenchmark_MarkupCompile.i.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Cpp_Collections_benchmark.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Cpp_Collections_benchmark.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python_Collections_benchmark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Collections_benchmark/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Collections_benchmark/Python_Collections_benchmark.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Collections_benchmark/Python_Collections_benchmark.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Collections_benchmark/ResultsManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Collections_benchmark/ResultsManager.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +28,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/HashMapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706">
+            <state relative-caret-position="634">
               <caret line="43" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
@@ -241,16 +223,15 @@
       <workItem from="1573412237990" duration="9273000" />
       <workItem from="1573435345567" duration="2889000" />
       <workItem from="1573477599332" duration="2211000" />
-      <workItem from="1573602936832" duration="878000" />
+      <workItem from="1573602936832" duration="1514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15251000" />
+    <option name="totallyTimeSpent" value="15887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -376,7 +357,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/HashMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
+        <state relative-caret-position="634">
           <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
