@@ -28,8 +28,10 @@ public class ArrayListTest implements IBenchmark {
 
     @Override
     public void FindTest() {
-        int toFind = list.size()-1;
-        boolean result = list.contains(toFind);
+        for (int i =0; i < numOfOperations; i++){
+            int toFind = list.size()-1;
+            boolean result = list.contains(toFind);
+        }
     }
 
     @Override

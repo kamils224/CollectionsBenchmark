@@ -1,10 +1,72 @@
 package com.company;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Main {
+
+    static void ArrayListBenchmark(int samples, int numOfOperations){
+        //ArrayList
+        List<BenchmarkResults> listResults = new ArrayList<>(samples);
+
+        ResultsManager listResultsManager = new ResultsManager();
+        listResultsManager.CollectionName = "ArrayList";
+        listResultsManager.NumberOfOperations = numOfOperations;
+
+        for (int i = 0; i < samples; i++)
+        {
+            System.out.println("Arraylist progress: "+ i + "/" + samples);
+            Benchmark benchmark = new Benchmark(new ArrayListTest(numOfOperations));
+            listResults.add(benchmark.PerformAllTests());
+        }
+        try {
+            listResultsManager.SaveToCsv(listResults, "Java_ArrayListTest.csv");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    static void HashMapBenchmark(int samples, int numOfOperations){
+        //HashMap
+        List<BenchmarkResults> hashmapResults = new ArrayList<>(samples);
+
+        ResultsManager dictResultsManager = new ResultsManager();
+        dictResultsManager.CollectionName = "HashMap";
+        dictResultsManager.NumberOfOperations = numOfOperations;
+
+        for (int i = 0; i < samples; i++)
+        {
+            System.out.println("Hashmap progress: "+ i + "/" + samples);
+            Benchmark benchmark = new Benchmark(new HashMapTest(numOfOperations));
+            hashmapResults.add(benchmark.PerformAllTests());
+        }
+        try {
+            dictResultsManager.SaveToCsv(hashmapResults, "Java_HashMapTest.csv");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    static void HashSetBenchmark(int samples, int numOfOperations){
+        //HashSet
+        List<BenchmarkResults> hashsetResults = new ArrayList<>(samples);
+
+        ResultsManager hashSetResultsManager = new ResultsManager();
+        hashSetResultsManager.CollectionName = "HashSet";
+        hashSetResultsManager.NumberOfOperations = numOfOperations;
+
+        for (int i = 0; i < samples; i++)
+        {
+            System.out.println("Hashset progress: "+ i + "/" + samples);
+            Benchmark benchmark = new Benchmark(new HashSetTest(numOfOperations));
+            hashsetResults.add(benchmark.PerformAllTests());
+        }
+        try {
+            hashSetResultsManager.SaveToCsv(hashsetResults, "Java_HashSetTest.csv");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     public static void main(String[] args) {
 
@@ -12,7 +74,10 @@ public class Main {
         int numOfOperations = 100;
         boolean success = false;
 
-        if (args.length == 4)
+        Set<String> collectionNames = new HashSet<>(Arrays.asList("arraylist","hashmap", "hashset", "all"));
+        String pickedCollection = "all";
+
+        if (args.length == 5)
         {
             success = true;
             if (args[0].equals("-s"))
@@ -38,6 +103,12 @@ public class Main {
                         samples, numOfOperations);
                 System.out.println(msg);
             }
+
+            if(collectionNames.contains(args[4])){
+                pickedCollection = args[4];
+            }else{
+                success = false;
+            }
         }
 
         if(!success)
@@ -48,63 +119,25 @@ public class Main {
             System.out.println(msg);
         }
 
+        switch (pickedCollection){
 
-        //ArrayList
+            case "arraylist":
+                ArrayListBenchmark(samples, numOfOperations);
+                break;
+            case "hashmap":
+                HashMapBenchmark(samples, numOfOperations);
+                break;
+            case "hashset":
+                HashSetBenchmark(samples, numOfOperations);
+                break;
+            case "all":
+                ArrayListBenchmark(samples, numOfOperations);
+                HashMapBenchmark(samples, numOfOperations);
+                HashSetBenchmark(samples, numOfOperations);
+                break;
 
-        List<BenchmarkResults> listResults = new ArrayList<>(samples);
-        List<BenchmarkResults> hashmapResults = new ArrayList<>(samples);
-        List<BenchmarkResults> hashsetResults = new ArrayList<>(samples);
-
-        ResultsManager listResultsManager = new ResultsManager();
-        listResultsManager.CollectionName = "ArrayList";
-        listResultsManager.NumberOfOperations = numOfOperations;
-
-        for (int i = 0; i < samples; i++)
-        {
-            Benchmark benchmark = new Benchmark(new ArrayListTest(numOfOperations));
-            listResults.add(benchmark.PerformAllTests());
-        }
-        try {
-            listResultsManager.SaveToCsv(listResults, "Java_ListTest.csv");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-
-        //HashMap
-
-
-        ResultsManager dictResultsManager = new ResultsManager();
-        dictResultsManager.CollectionName = "HashMap";
-        dictResultsManager.NumberOfOperations = numOfOperations;
-
-        for (int i = 0; i < samples; i++)
-        {
-            Benchmark benchmark = new Benchmark(new HashMapTest(numOfOperations));
-            hashmapResults.add(benchmark.PerformAllTests());
-        }
-        try {
-            dictResultsManager.SaveToCsv(hashmapResults, "Java_HashMapTest.csv");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-
-        //HashSet
-
-        ResultsManager hashSetResultsManager = new ResultsManager();
-        hashSetResultsManager.CollectionName = "HashSet";
-        hashSetResultsManager.NumberOfOperations = numOfOperations;
-
-        for (int i = 0; i < samples; i++)
-        {
-            Benchmark benchmark = new Benchmark(new HashSetTest(numOfOperations));
-            hashsetResults.add(benchmark.PerformAllTests());
-        }
-        try {
-            hashSetResultsManager.SaveToCsv(hashsetResults, "Java_HashSetTest.csv");
-        } catch (IOException e) {
-            e.printStackTrace();
+            default:
+                break;
         }
 
     }

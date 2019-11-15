@@ -13,34 +13,37 @@ public class Benchmark {
 
     public BenchmarkResults PerformAllTests(){
 
+        PerformAdd();
+        PerformFind();
+        PerformRemove();
         return results;
     }
 
     private void PerformAdd(){
 
-        long start = System.currentTimeMillis();
+        long start = System.nanoTime();
         benchmark.AddTest();
-        long end = System.currentTimeMillis();
+        long end = System.nanoTime();
 
-        results.AddTime = end - start;
+        results.AddTime = (end - start)/1000000.0;
     }
 
     private void PerformFind(){
 
-        long start = System.currentTimeMillis();
+        long start = System.nanoTime();
         benchmark.FindTest();
-        long end = System.currentTimeMillis();
+        long end = System.nanoTime();
 
-        results.FindTime = end - start;
+        results.FindTime = (end - start)/1000000.0;
     }
 
     private void PerformRemove(){
 
-        long start = System.currentTimeMillis();
+        long start = System.nanoTime();
         benchmark.RemoveTest();
-        long end = System.currentTimeMillis();
+        long end = System.nanoTime();
 
-        results.RemoveTime = end - start;
+        results.RemoveTime = (end - start)/1000000.0;
     }
 
 }

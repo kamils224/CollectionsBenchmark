@@ -2,10 +2,10 @@ package com.company;
 
 public class BenchmarkResults {
 
-    public long CreateAndAddTime;
-    public long AddTime;
-    public long FindTime;
-    public long RemoveTime;
+    public double CreateAndAddTime;
+    public double AddTime;
+    public double FindTime;
+    public double RemoveTime;
 
     @Override
     public String toString() {

@@ -36,7 +36,6 @@ public class HashMapTest implements IBenchmark {
             Integer toFind = map.size()-1;
             boolean result = map.containsValue(toFind);
         }
-
     }
 
     @Override
