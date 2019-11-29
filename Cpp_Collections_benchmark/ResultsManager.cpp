@@ -1,6 +1,7 @@
 #include "ResultsManager.h"
 #include <fstream>
 #include <iostream>
+#include <iomanip>
 
 void ResultsManager::SaveToCsv(std::vector<BenchmarkResults>& results, std::string path)
 {
@@ -23,6 +24,7 @@ void ResultsManager::SaveToCsv(std::vector<BenchmarkResults>& results, std::stri
 			+ "," + std::to_string(r.FindTime) + "," + std::to_string(r.RemoveTime);
 
 		csv = row + "\n";
+		out << std::setprecision(8);
 		out << csv;
 		csv.clear();
 		counter++;

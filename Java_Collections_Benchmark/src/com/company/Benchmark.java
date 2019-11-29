@@ -24,7 +24,7 @@ public class Benchmark {
         long start = System.nanoTime();
         benchmark.AddTest();
         long end = System.nanoTime();
-
+        System.out.printf("%f\n",(end - start)/1000000.0);
         results.AddTime = (end - start)/1000000.0;
     }
 
@@ -33,7 +33,7 @@ public class Benchmark {
         long start = System.nanoTime();
         benchmark.FindTest();
         long end = System.nanoTime();
-
+        System.out.printf("%f\n",(end - start)/1000000.0);
         results.FindTime = (end - start)/1000000.0;
     }
 
@@ -42,7 +42,7 @@ public class Benchmark {
         long start = System.nanoTime();
         benchmark.RemoveTest();
         long end = System.nanoTime();
-
+        System.out.printf("%f\n",(end - start)/1000000.0);
         results.RemoveTime = (end - start)/1000000.0;
     }
 

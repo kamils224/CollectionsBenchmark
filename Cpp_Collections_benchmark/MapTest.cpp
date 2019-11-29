@@ -1,51 +1,42 @@
 #include "MapTest.h"
 #include <iostream>
 #include <chrono>
+#include <algorithm>
 
 void MapTest::addTest()
 {
 	for (size_t i = 0; i < numOfOperations; i++)
 	{
-		int toAdd = map.size();
-		map.insert({ toAdd ,toAdd });
+		map.insert({ i ,i });
 	}
 }
 
 void MapTest::findTest()
 {
+	int toFind = map.size() - 1;
+	bool result = false;
 	for (size_t i = 0; i < numOfOperations; i++)
 	{
-		int toFind = map.size() - 1;
-		auto results = findByValue(toFind);
+		for (auto it = map.begin(); it != map.end(); it++)
+		{
+			if (it->second == toFind)
+			{
+				result = true;
+			}
+		}
 	}
 }
 
 void MapTest::removeTest()
 {
+	int toRemove = map.size() - 1;
 	for (size_t i = 0; i < numOfOperations; i++)
 	{
-		int toRemove = map.size() - 1;
 		map.erase(toRemove);
+		toRemove--;
 	}
 }
 
-bool MapTest::findByValue(int value)
-{
-	auto it = map.begin();
-	// Iterate through the map
-	while (it != map.end())
-	{
-		// Check if value of this entry matches with given value
-		if (it->second == value)
-		{
-			// Yes found
-			return true;
-		}
-		// Go to next entry in map
-		it++;
-	}
-	return false;
-}
 
 	
 

@@ -20,24 +20,24 @@ public class HashSetTest implements IBenchmark {
     @Override
     public void AddTest() {
         for (int i = 0; i < numOfOperations; i++) {
-            Integer toAdd = hashSet.size();
-            hashSet.add(toAdd);
+            hashSet.add(i);
         }
     }
 
     @Override
     public void FindTest() {
+        Integer toFind = hashSet.size() - 1;
         for (int i = 0; i < numOfOperations; i++) {
-            Integer toFind = hashSet.size() - 1;
             boolean result = hashSet.contains(toFind);
         }
     }
 
     @Override
     public void RemoveTest() {
+        Integer toRemove = hashSet.size() - 1;
         for (int i = 0; i < numOfOperations; i++) {
-            Integer toRemove = hashSet.size() - 1;
             hashSet.remove(toRemove);
+            toRemove--;
         }
     }
 }

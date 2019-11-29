@@ -1,6 +1,7 @@
 #include "Benchmark.h"
 #include <chrono>
 #include <iostream>
+#include <iomanip>
 
 
 Benchmark::Benchmark(IBenchmark* benchmark)
@@ -24,6 +25,7 @@ void Benchmark::PerformAdd()
 	auto end = std::chrono::high_resolution_clock::now();
 
 	auto elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(end - start).count() / 1000000.0;
+	std::cout << elapsed << std::endl;
 	results.AddTime = elapsed;
 }
 
@@ -34,6 +36,7 @@ void Benchmark::PerformFind()
 	auto end = std::chrono::high_resolution_clock::now();
 	
 	auto elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(end - start).count() / 1000000.0;
+	std::cout << elapsed << std::endl;
 	results.FindTime = elapsed;
 }
 
@@ -43,6 +46,7 @@ void Benchmark::PerformRemove()
 	benchmark->removeTest();
 	auto end = std::chrono::high_resolution_clock::now();
 	auto elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(end - start).count()/1000000.0;
+	std::cout << elapsed << std::endl;
 	results.RemoveTime = elapsed;
 }
 

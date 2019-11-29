@@ -5,6 +5,26 @@ import java.util.*;
 
 public class Main {
 
+    static void Test()
+    {
+        int operations = 10000;
+        Map<Integer, Integer> mp = new HashMap<>();
+
+        for (int i=0;i < operations; i++){
+            mp.put(i,i);
+        }
+
+        long start = System.nanoTime();
+        Integer toFind = mp.size()-1;
+        for (int i=0;i < operations; i++){
+            boolean result = mp.containsValue(toFind);
+        }
+        long end = System.nanoTime();
+
+        System.out.printf("%f\n",(end - start)/1000000.0);
+
+    }
+
     static void ArrayListBenchmark(int samples, int numOfOperations){
         //ArrayList
         List<BenchmarkResults> listResults = new ArrayList<>(samples);
@@ -70,6 +90,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+        //Test();
         int samples = 10;
         int numOfOperations = 100;
         boolean success = false;

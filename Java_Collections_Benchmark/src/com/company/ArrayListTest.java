@@ -22,14 +22,14 @@ public class ArrayListTest implements IBenchmark {
     @Override
     public void AddTest() {
         for (int i = 0; i < numOfOperations; i++){
-            list.add(list.size());
+            list.add(i);
         }
     }
 
     @Override
     public void FindTest() {
+        int toFind = list.size()-1;
         for (int i =0; i < numOfOperations; i++){
-            int toFind = list.size()-1;
             boolean result = list.contains(toFind);
         }
     }

@@ -36,7 +36,7 @@ namespace CS_Collections_benchmark
 
             for (int i = 0; i < samples; i++)
             {
-                Benchmark benchmark = new Benchmark(new ListTest(numOfOperations));
+                Benchmark benchmark = new Benchmark(new DictionaryTest(numOfOperations));
                 dictionaryResults.Add(benchmark.PerformAllTests());
                 Console.WriteLine(dictResultsManager.CollectionName +"progress: "+i + "/" + samples);
             }
@@ -54,7 +54,7 @@ namespace CS_Collections_benchmark
 
             for (int i = 0; i < samples; i++)
             {
-                Benchmark benchmark = new Benchmark(new ListTest(numOfOperations));
+                Benchmark benchmark = new Benchmark(new HashSetTest(numOfOperations));
                 hashsetResults.Add(benchmark.PerformAllTests());
                 Console.WriteLine(hashSetResultsManager.CollectionName + " progress: "+i + "/"+samples);
             }
@@ -62,11 +62,11 @@ namespace CS_Collections_benchmark
         }
         static void Main(string[] args)
         {
-            int samples = 10;
-            int numOfOperations = 100;
+            int samples = 1;
+            int numOfOperations = 10000;
             bool success = false;
             List<string> collectionType = new List<string>{ "list", "dict", "set", "all" };
-            string pickedCollection = "list";
+            string pickedCollection = "dict";
 
             if (args.Length == 5)
             {

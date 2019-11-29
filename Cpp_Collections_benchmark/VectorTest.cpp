@@ -7,16 +7,15 @@ void VectorTest::addTest()
 {
 	for (size_t i = 0; i < numOfOperations; i++)
 	{
-		int toAdd = v.size();
-		v.push_back(toAdd);
+		v.push_back(i);
 	}
 }
 
 void VectorTest::findTest()
 {
+	int toFind = v[v.size() - 1];
 	for (size_t i = 0; i < numOfOperations; i++)
 	{
-		int toFind = v[v.size() - 1];
 		auto it = std::find(v.begin(), v.end(), toFind);
 	}
 }

@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fb048fe-0272-4eae-983a-56128a1e2504" name="Default Changelist" comment="" />
+    <list default="true" id="7fb048fe-0272-4eae-983a-56128a1e2504" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/Benchmark.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/Benchmark.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/HashSetTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/HashSetTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/ListTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/ListTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/bin/Release/netcoreapp3.0/CS_Collections_benchmark.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/bin/Release/netcoreapp3.0/CS_Collections_benchmark.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/bin/Release/netcoreapp3.0/CS_Collections_benchmark.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/bin/Release/netcoreapp3.0/CS_Collections_benchmark.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/Release/netcoreapp3.0/CS_Collections_benchmark.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/Release/netcoreapp3.0/CS_Collections_benchmark.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/Release/netcoreapp3.0/CS_Collections_benchmark.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/Release/netcoreapp3.0/CS_Collections_benchmark.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/Release/netcoreapp3.0/CS_Collections_benchmark.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CS_Collections_benchmark/obj/Release/netcoreapp3.0/CS_Collections_benchmark.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CollectionsBenchmark/obj/Release/netcoreapp3.0/CollectionsBenchmark.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsBenchmark/obj/Release/netcoreapp3.0/CollectionsBenchmark.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Benchmark.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/Benchmark.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/MapTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/MapTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/ResultsManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/ResultsManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/SetTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/SetTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/VectorTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/VectorTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/Benchmark.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/Benchmark.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/BenchmarkResults.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/BenchmarkResults.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/Cpp_Coll.6BD2E2E8.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/Cpp_Coll.6BD2E2E8.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/Cpp_Coll.6BD2E2E8.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/Cpp_Coll.6BD2E2E8.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/Cpp_Coll.6BD2E2E8.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/Cpp_Coll.6BD2E2E8.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/Cpp_Coll.6BD2E2E8.tlog/Cpp_Collections_benchmark.write.1u.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/Cpp_Coll.6BD2E2E8.tlog/Cpp_Collections_benchmark.write.1u.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/Cpp_Coll.6BD2E2E8.tlog/link.delete.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/Cpp_Coll.6BD2E2E8.tlog/link.delete.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/Cpp_Collections_benchmark.Build.CppClean.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/Cpp_Collections_benchmark.Build.CppClean.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/Cpp_Collections_benchmark.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/Cpp_Collections_benchmark.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/Cpp_Collections_benchmark.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/Cpp_Collections_benchmark.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/IBenchmark.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/IBenchmark.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/MapTest.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/MapTest.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/ResultsManager.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/ResultsManager.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/SetTest.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/SetTest.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/VectorTest.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/VectorTest.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp_Collections_benchmark/x64/Release/vc142.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Collections_Benchmark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Collections_Benchmark/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Collections_Benchmark/out/artifacts/Java_Collections_Benchmark_jar/Java_ArrayListTest.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Collections_Benchmark/out/artifacts/Java_Collections_Benchmark_jar/Java_HashMapTest.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Collections_Benchmark/out/artifacts/Java_Collections_Benchmark_jar/Java_HashSetTest.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Collections_Benchmark/src/com/company/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Collections_Benchmark/src/com/company/ArrayListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Benchmark.py" beforeDir="false" afterPath="$PROJECT_DIR$/Benchmark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DictionaryTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/DictionaryTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/ListTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Collections_benchmark.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Collections_benchmark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_DictionaryTest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Python_DictionaryTest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_ListTest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Python_ListTest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_SetTest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Python_SetTest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SetTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/SetTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Release/Cpp_Collections_benchmark.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../x64/Release/Cpp_Collections_benchmark.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Release/Cpp_Collections_benchmark.iobj" beforeDir="false" afterPath="$PROJECT_DIR$/../x64/Release/Cpp_Collections_benchmark.iobj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Release/Cpp_Collections_benchmark.ipdb" beforeDir="false" afterPath="$PROJECT_DIR$/../x64/Release/Cpp_Collections_benchmark.ipdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x64/Release/Cpp_Collections_benchmark.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../x64/Release/Cpp_Collections_benchmark.pdb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,42 +61,45 @@
     <session id="-987144955">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="3" />
-          <entry key="py" value="7" />
+          <entry key="py" value="9" />
+          <entry key="pyproj" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="7" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="870" />
+          <entry key="py" value="1620" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="870" />
+          <entry key="Python" value="1620" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ResultsManager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="552">
               <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
             </state>
           </provider>
@@ -56,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python_Collections_benchmark.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1070">
-              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+            <state relative-caret-position="1362">
+              <caret line="117" column="24" lean-forward="true" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -71,10 +123,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IBenchmark.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python_Collections_benchmark.pyproj">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Benchmark.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+            <state relative-caret-position="504">
+              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -82,39 +144,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python_DictionaryTest.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python_ListTest.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python_SetTest.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SetTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
+            <state relative-caret-position="360">
               <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DictionaryTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            <state relative-caret-position="432">
+              <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -122,8 +165,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ListTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="258">
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -151,16 +194,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SetTest.py" />
-        <option value="$PROJECT_DIR$/DictionaryTest.py" />
-        <option value="$PROJECT_DIR$/ListTest.py" />
+        <option value="$PROJECT_DIR$/ResultsManager.py" />
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Python_Collections_benchmark.py" />
         <option value="$PROJECT_DIR$/Benchmark.py" />
-        <option value="$PROJECT_DIR$/ResultsManager.py" />
+        <option value="$PROJECT_DIR$/ListTest.py" />
+        <option value="$PROJECT_DIR$/SetTest.py" />
+        <option value="$PROJECT_DIR$/DictionaryTest.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="473" />
     <option name="y" value="29" />
     <option name="width" value="1400" />
@@ -173,7 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,6 +228,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Python_Collections_benchmark">
+  <component name="RunManager" selected="Python.test">
     <configuration name="DictionaryTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Collections_benchmark" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,12 +292,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Collections_benchmark" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.DictionaryTest" />
       <item itemvalue="Python.Python_Collections_benchmark" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.Python_Collections_benchmark" />
         <item itemvalue="Python.DictionaryTest" />
       </list>
@@ -326,42 +393,35 @@
     <SUITE FILE_PATH="coverage/Python_Collections_benchmark$DictionaryTest.coverage" NAME="DictionaryTest Coverage Results" MODIFIED="1573249404299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SetTest.py">
+    <entry file="file://$PROJECT_DIR$/Python_ListTest.csv" />
+    <entry file="file://$PROJECT_DIR$/Python_SetTest.csv" />
+    <entry file="file://$PROJECT_DIR$/Python_DictionaryTest.csv" />
+    <entry file="file://$PROJECT_DIR$/ResultsManager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state relative-caret-position="552">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ListTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_ListTest.csv">
+    <entry file="file://$PROJECT_DIR$/IBenchmark.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_SetTest.csv">
+    <entry file="file://$PROJECT_DIR$/Python_Collections_benchmark.pyproj">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DictionaryTest.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state>
+          <caret selection-end-line="6" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Benchmark.py">
+    <entry file="file://$PROJECT_DIR$/Python_Collections_benchmark.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        <state relative-caret-position="1362">
+          <caret line="117" column="24" lean-forward="true" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -369,27 +429,37 @@
     <entry file="file://$PROJECT_DIR$/BenchmarkResults.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ResultsManager.py">
+    <entry file="file://$PROJECT_DIR$/Benchmark.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Collections_benchmark.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1070">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        <state relative-caret-position="504">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_DictionaryTest.csv">
+    <entry file="file://$PROJECT_DIR$/ListTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="258">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SetTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DictionaryTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
         </state>
       </provider>
     </entry>

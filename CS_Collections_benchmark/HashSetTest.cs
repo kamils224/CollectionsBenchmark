@@ -25,26 +25,26 @@ namespace CS_Collections_benchmark
         {
             for (int i = 0; i < numOfOperations; i++)
             {
-                int toAdd = hashSet.Count;
-                hashSet.Add(toAdd);
+                hashSet.Add(i);
             }
         }
 
         public void FindTest()
         {
+            int toFind = hashSet.Count - 1;
             for (int i = 0; i < numOfOperations; i++)
             {
-                int toFind = hashSet.Count - 1;
                 bool result = hashSet.Contains(toFind);
             }
         }
 
         public void RemoveTest()
         {
+            int toRemove = hashSet.Count - 1;
             for (int i = 0; i < numOfOperations; i++)
             {
-                int toRemove = hashSet.Count - 1;
                 hashSet.Remove(toRemove);
+                toRemove--;
             }
 
         }

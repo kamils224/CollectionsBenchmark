@@ -1,7 +1,38 @@
-﻿  Benchmark.cpp
+﻿  MapTest.cpp
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(16,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(32,31): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4267: 'initializing': conversion from 'size_t' to '_Ty1', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4267:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4267:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4267:             _Ty1=int
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4267:         ]
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(10): message : see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<size_t&,size_t&,0>(_Other1,_Other2) noexcept' being compiled
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(10): message :         with
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(10): message :         [
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(10): message :             _Kty=int,
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(10): message :             _Ty=int,
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(10): message :             _Other1=size_t &,
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(10): message :             _Other2=size_t &
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(10): message :         ]
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(10): message : see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<size_t&,size_t&,0>(_Other1,_Other2) noexcept' being compiled
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(10): message :         with
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(10): message :         [
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(10): message :             _Kty=int,
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(10): message :             _Ty=int,
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(10): message :             _Other1=size_t &,
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(10): message :             _Other2=size_t &
+C:\Users\Kamil\source\repos\CollectionsBenchmark\Cpp_Collections_benchmark\MapTest.cpp(10): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\chrono(669): message : see reference to class template instantiation 'std::chrono::duration<double,std::ratio<1,1>>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\chrono(177): message : see reference to class template instantiation 'std::chrono::duration<__int64,std::nano>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\chrono(647): message : see reference to class template instantiation 'std::chrono::time_point<std::chrono::steady_clock,std::chrono::steady_clock::duration>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4267: 'initializing': conversion from 'size_t' to '_Ty2', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4267:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4267:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4267:             _Ty2=int
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(127,1): warning C4267:         ]
   Generating code
-  8 of 753 functions ( 1.1%) were compiled, the rest were copied from previous compilation.
+  0 of 753 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    18 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   Cpp_Collections_benchmark.vcxproj -> C:\Users\Kamil\source\repos\CollectionsBenchmark\x64\Release\Cpp_Collections_benchmark.exe

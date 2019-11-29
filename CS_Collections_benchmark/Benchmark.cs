@@ -32,6 +32,7 @@ namespace CS_Collections_benchmark
             benchmark.AddTest();
             sw.Stop();
             results.AddTime = sw.Elapsed.TotalMilliseconds;
+            Console.WriteLine(results.AddTime);
         }
         private void PerformFind()
         {
@@ -39,6 +40,7 @@ namespace CS_Collections_benchmark
             benchmark.FindTest();
             sw.Stop();
             results.FindTime = sw.Elapsed.TotalMilliseconds;
+            Console.WriteLine(results.FindTime);
         }
 
         private void PerformRemove()
@@ -47,6 +49,7 @@ namespace CS_Collections_benchmark
             benchmark.RemoveTest();
             sw.Stop();
             results.RemoveTime = sw.Elapsed.TotalMilliseconds;
+            Console.WriteLine(results.RemoveTime);
         }
     }
 }

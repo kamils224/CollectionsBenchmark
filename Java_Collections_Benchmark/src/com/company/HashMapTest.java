@@ -14,7 +14,6 @@ public class HashMapTest implements IBenchmark {
     }
 
     public HashMapTest(int numOfOperations){
-
         map = new HashMap<>();
         this.numOfOperations = numOfOperations;
     }
@@ -24,26 +23,24 @@ public class HashMapTest implements IBenchmark {
     public void AddTest() {
 
         for (int i = 0; i < numOfOperations ; i++) {
-            Integer toAdd = map.size();
-            map.put(toAdd, toAdd);
+            map.put(i, i);
         }
     }
 
     @Override
     public void FindTest() {
-
+        Integer toFind = map.size()-1;
         for (int i = 0; i < numOfOperations; i++){
-            Integer toFind = map.size()-1;
             boolean result = map.containsValue(toFind);
         }
     }
 
     @Override
     public void RemoveTest() {
-
+        Integer toRemove = map.size()-1;
         for (int i = 0; i < numOfOperations; i++) {
-            Integer toRemove = map.size()-1;
             map.remove(toRemove);
+            toRemove--;
         }
     }
 }

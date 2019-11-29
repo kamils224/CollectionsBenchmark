@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 
 namespace CS_Collections_benchmark
@@ -31,19 +32,20 @@ namespace CS_Collections_benchmark
 
         public void FindTest()
         {
+            int value = dictionary.Count - 1;
             for (int i = 0; i < numOfOperations; i++)
             {
-                int value = dictionary.Count - 1;
                 bool result = dictionary.ContainsValue(value);
             }
         }
 
         public void RemoveTest()
         {
+            int toRemove = dictionary.Count - 1;
             for (int i = 0; i < numOfOperations; i++)
             {
-                int toRemove = dictionary.Count - 1;
                 dictionary.Remove(toRemove);
+                toRemove--;
             }
         }
     }

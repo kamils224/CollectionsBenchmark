@@ -25,16 +25,15 @@ namespace CS_Collections_benchmark
         {
             for (int i = 0; i < numOfOperations; i++)
             {
-                int toAdd = list.Count;
-                list.Add(toAdd);
+                list.Add(i);
             }
         }
 
         public void FindTest()
         {
+            int toFind = list[list.Count - 1];
             for (int i = 0; i < numOfOperations; i++)
             {
-                int toFind = list[list.Count - 1];
                 int foundElement = list.Find(x => x == toFind);
             }
         }
